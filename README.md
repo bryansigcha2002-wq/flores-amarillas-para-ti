@@ -98,7 +98,6 @@
   </div>
 
   <script>
-    // Generar estrellas de fondo
     const starsContainer = document.getElementById('stars');
     for (let i = 0; i < 120; i++) {
       const star = document.createElement('div');
@@ -111,7 +110,6 @@
       starsContainer.appendChild(star);
     }
 
-    // Generar girasoles/flores en espiral flotante continua
     function createFlower() {
       const flower = document.createElement('div');
       flower.className = 'girasol';
